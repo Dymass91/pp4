@@ -1,7 +1,7 @@
 import React from 'react';
 import imgtown from '../images/town.jpg';
 import olives2 from '../images/olives2.jpg';
-
+import "../styles/index.css";
 
 const HomePage = () => {
     return (

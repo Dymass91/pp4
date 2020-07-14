@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
 import HealthBenefits from '../pages/HealthBenefits';
-// import ContactPage from '../pages/ContactPage';
+import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 import EcoOlive from '../pages/EcoOliveOil';
 import ExtOlive from '../pages/ExtVirOliveOil';
@@ -29,7 +29,7 @@ const Page = () => {
                             <Switch location={location} >
                                 <Route path="/" exact component={HomePage} />
                                 <Route path="/HealtBenefits" component={HealthBenefits} />
-                                {/* <Route path="/Contact" component={ContactPage} /> */}
+                                <Route path="/Contact" component={ContactPage} />
                                 <Route path="/EcoOlive" component={EcoOlive} />
                                 <Route path="/ExtOlive" component={ExtOlive} />
                                 <Route path="/JamsonOil" component={JamsonOil} />

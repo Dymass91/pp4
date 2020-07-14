@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 
+// import { BrowserRouter as Router } from 'react-router-dom';
+import Navigation from './layoouts/Navigation';
 import Footer from './layoouts/Footer';
 import './App.css';
 
@@ -21,6 +23,9 @@ function App() {
           Learn React 22
         </a>
       </header>
+      <aside>
+        {<Navigation />}
+      </aside>
       <footer>
         {<Footer />}
       </footer>

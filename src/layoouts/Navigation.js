@@ -16,16 +16,16 @@ const list = [
 
 const Navigation = () => {
 
-    // const menu = list.map(item => (
-    //     <li key={item.name}>
-    //         <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
-    //     </li>
-    // ))
+    const menu = list.map(item => (
+        <li key={item.name}>
+            <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
+        </li>
+    ))
     return (
         <StickyBox offsetTop={0} offsetBottom={20}>
             <nav className="main">
                 <ul>
-                    {/* {menu} */}
+                    {menu}
 
                 </ul>
             </nav>

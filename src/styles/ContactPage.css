@@ -1,0 +1,162 @@
+ 
+ @media (min-width: 360px) and (max-width: 767px){
+    .input-email, .input-name
+    {
+        width: 15rem;
+       margin-left: 2vw;
+        padding: 10px 15px;
+        border: 2px solid rgb(172, 172, 172);
+        border-radius: 10px;
+    }
+.input-textarea
+{
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 10px;
+}
+.contact{
+    margin-bottom: 5%;
+}
+.contact h1
+{
+    margin-bottom: 4%;
+   
+}
+
+.contact textarea{
+    font-size: 16px;
+    width: 100%;
+    min-height: 150px;
+    line-height: 1.6;
+    display: flex;
+    padding: 10px 15px;
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 10px;
+}
+.primary-button{
+    display: block;
+    float: left;
+    border: 2px solid rgb(156, 223, 80);
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .4s;
+    border-radius: 10px;
+    color: rgb(156, 223, 80);
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 223, 80);
+    border: 2px solid rgb(156, 223, 80);
+}
+.Contact__Details
+{
+    margin-bottom: 3%;
+    line-height: 2.2;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Send-message
+{
+   display: flex;
+    font-size: 22px;
+    color: lawngreen;
+    padding: 0.5rem;
+}
+ }
+
+ @media (min-width: 767px){
+    .Container_contact-form
+    {
+        box-shadow: 0px 0px 0px 0px white;
+     display: flex;
+       
+       position: relative;
+       background-color: transparent;
+       z-index: 2;
+       width: 61.8vw;
+       min-height: 700px;
+     flex-direction: column;
+       z-index: 2;
+       border-radius: 7rem;
+       
+       color: rgb(48, 73, 20);
+       
+    }
+    .input-email, .input-name
+   {
+       width: 13rem;
+      margin-left: 7vw;
+       padding: 10px 15px;
+       border: 2px solid rgb(172, 172, 172);
+       border-radius: 10px;
+   }
+   
+   .contact{
+       margin-bottom: 5%;
+   }
+   .contact h1
+   {
+       margin-bottom: 4%;
+
+   }
+   .contact_h1
+   {
+    margin-left: 6rem;
+    margin-top: 1rem;
+   }
+   .contact textarea{
+       font-size: 16px;
+       width: 80%;
+       min-height: 150px;
+       line-height: 1.6;
+       margin-left: 7vw;
+       padding: 10px 15px;
+       border: 2px solid rgb(172, 172, 172);
+       border-radius: 10px;
+   }
+   .primary-button{
+       
+       display: block;
+       float: left;
+       margin-left: 10%;
+       border: 2px solid rgb(93, 139, 40);
+       background-color: #fff;
+       padding: 10px 20px;
+       cursor: pointer;
+       font-size: 20px;
+       transition: .4s;
+       border-radius: 10px;
+       color: rgb(93, 139, 40);
+       font-weight: bold;
+   }
+   
+   .primary-button:hover {
+       color: rgb(255, 255, 255);
+       background-color: rgb(93, 139, 40);
+       border: 2px solid rgb(93, 139, 40);    
+   }
+   .Contact__Details
+   {
+      
+    margin-left: 10%;
+       margin-bottom: 3%;
+       line-height: 2.2;
+       font-size: 22px;
+       font-weight: bold;
+   }
+   
+   .Send-message
+   {
+      display: flex;
+       font-size: 22px;
+       color: rgb(57, 114, 0);
+       padding: 0.5rem;
+   }
+ }

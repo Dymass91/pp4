@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+
+import Footer from './layoouts/Footer';
 import './App.css';
 
 function App() {
@@ -16,9 +18,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 2
+          Learn React 22
         </a>
       </header>
+      <footer>
+        {<Footer />}
+      </footer>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/SideDrawer.css';
-// import SocialFollow from './SocialFollow';
+import SocialFollow from './SocialFollow';
 import ImgLogo from '../images/Logo.jpg';
 import Backdrop from './Backdrop'
 
@@ -58,7 +58,7 @@ class SideDrawer extends Component {
                     <li><Link onClick={this.closeNavbar} to={"/HealtBenefits"}>Health Benefits</Link></li>
                     <li><Link onClick={this.closeNavbar} to={"/contact"}>Contact</Link></li>
 
-                    {/* <SocialFollow /> */}
+                    <SocialFollow />
                 </ul>
                 {backdrop}
             </nav>

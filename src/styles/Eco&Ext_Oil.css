@@ -3,7 +3,7 @@
     .oil_Jamon-Logo
     {
         margin-top: -1rem;
-        height: 36vh;
+        height: 38vh;
         left: 50%;
         transform: translateX(-50%);
 
@@ -101,7 +101,7 @@ float: left;
         margin-top: -1rem;
         height: 34vh;
 
-
+        shape-outside: circle(120%);
 padding: 0.5rem;
 position: relative;
 left: 50%;

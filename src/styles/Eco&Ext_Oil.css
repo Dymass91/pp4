@@ -214,8 +214,8 @@ float: left;
            width: 100%;
            position: relative;
   z-index: 3;
-    margin-top: -2rem;
-    margin-bottom: 3rem;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
     font-size: 3.3rem;
     margin-left: 6rem;
     color: #98b80a;
@@ -282,7 +282,7 @@ float: left;
 
   margin-bottom: 5%;
   font-size: 26px;
-
+ margin-top: -2rem;
   text-align:justify;
   color: rgb(48, 73, 20);
   z-index: 2;
